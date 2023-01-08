@@ -1,0 +1,51 @@
+.content {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+::ng-deep {
+    mat-toolbar {
+        background-color: #4158D0 !important;
+        background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%) !important;
+        color: white !important;
+
+    }
+
+    .mat-select-panel {
+        background-color: #FA8BFF !important;
+        background-image: linear-gradient(45deg, #FA8BFF 0%, #2BD2FF 68%, #2BFF88 97%) !important;
+
+    }
+
+    .mat-option {
+        font-size: inherit;
+        line-height: 3em;
+        height: 3em;
+        color: white !important;
+        font-weight: 500 !important;
+        letter-spacing: 1px !important;
+    }
+
+    .mat-select-value {
+        color: white;
+        font-weight: 500;
+        letter-spacing: 1px;
+    }
+}
+
+.custom {
+    background-color: #4158d0!important;
+    background-image: linear-gradient(43deg,#4158D0 0%,#C850C0 46%,#FFCC70 100%)!important;
+    color: #fff!important;
+    margin-right: 16px;
+    padding: 10px;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
